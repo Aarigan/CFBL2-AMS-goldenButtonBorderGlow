@@ -1,0 +1,149 @@
+/* Import Caramel - Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+:root {
+  --clr-bkg: #000;
+  --clr-txt: #f7b42f;
+  --clr-txt-h: #f9e589;
+  --clr-txt-sha: #ffcc00;
+  --clr-bord1: #d8b965;
+  --clr-bord2: #9c7625;
+  --cl-boxsha1: #fafac4;
+  --cl-boxsha2: #fdd832;
+  --cl-boxsha3: #f7b42f;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-bkg);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: none;
+  outline: none;
+}
+
+/* button 1 */
+.buttons .button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: 2px solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button1:hover {
+  color: var(--clr-txt-h);
+  text-shadow: 1px 1px 5px var(--clr-txt-sha);
+  border: 3px solid var(--clr-bord2);
+  box-shadow: 0 0 10px var(--cl-boxsha1),
+              0 0 40px var(--cl-boxsha2),
+              0 0 60px var(--cl-boxsha3);
+}
+
+/* button 2 */
+.buttons .button2 {
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: -5px;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: 2px solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button2:hover {
+  color: var(--clr-txt-h);
+  text-shadow: 1px 1px 5px var(--clr-txt-sha);
+  border: 3px solid var(--clr-bord2);
+  box-shadow: 0 0 10px var(--cl-boxsha1),
+              0 0 40px var(--cl-boxsha2),
+              0 0 60px var(--cl-boxsha3);
+}
+
+/* button 3 */
+.buttons .button3 {
+  padding: 15px 25px;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: -5px;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: 2px solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  border-radius: 50px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button3:hover {
+  color: var(--clr-txt-h);
+  text-shadow: 1px 1px 5px var(--clr-txt-sha);
+  border: 3px solid var(--clr-bord2);
+  box-shadow: 0 0 10px var(--cl-boxsha1),
+              0 0 40px var(--cl-boxsha2),
+              0 0 60px var(--cl-boxsha3);
+}
+
+/* button 4 */
+.buttons .button4 {
+  padding: 15px 25px;
+  margin: 0 25%;
+  font-family: 'Caramel', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  color: var(--clr-txt);
+  border: 2px solid var(--clr-bord1);
+  background-color: var(--clr-bkg);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button4:hover {
+  color: var(--clr-txt-h);
+  text-shadow: 1px 1px 5px var(--clr-txt-sha);
+  border: 3px solid var(--clr-bord2);
+  box-shadow: 0 0 10px var(--cl-boxsha1),
+              0 0 40px var(--cl-boxsha2),
+              0 0 60px var(--cl-boxsha3);
+}
+
